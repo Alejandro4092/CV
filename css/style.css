@@ -1,0 +1,45 @@
+body {
+  font-family: 'Verdana', sans-serif;
+  margin: 20px;
+  background-color: #e0e0e0; /* Cambia el color de fondo a tu preferencia */
+  color: #333; /* Cambia el color del texto a tu preferencia */
+}
+
+header {
+  text-align: center;
+  background-color: #4CAF50; /* Cambia el color de fondo del encabezado a tu preferencia */
+  color: #fff; /* Cambia el color del texto del encabezado a tu preferencia */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  color: #4CAF50; /* Cambia el color de las etiquetas h1 y h2 a tu preferencia */
+}
+
+section {
+  margin-bottom: 20px;
+  background-color: #fff; /* Cambia el color de fondo de las secciones a tu preferencia */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.education, .experience {
+  border-left: 2px solid #4CAF50;
+  padding-left: 20px;
+}
+
+.skills ul {
+  columns: 2;
+}
